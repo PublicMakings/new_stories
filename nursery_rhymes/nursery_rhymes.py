@@ -49,15 +49,15 @@ with open('rhymes.json') as json_data:
 #########################################################################
 ## FUNCTIONS
 
-def makeMeter():
-phones_list = pronouncing.phones_for_word("snappiest")
-pronouncing.stresses(phones_list[0])
+def makeMeter(data):
+	phones_list = pronouncing.phones_for_word(data)
+	pronouncing.stresses(phones_list[0])
 
 ## RANDOMLY SELECT PATTERN
 
 
 ## CREATE WORD ARRAY of forest meanings
-## MAKE A DICTIONARY?
+## MAKE A DICTIONARY
 
 
 
